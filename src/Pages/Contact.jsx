@@ -71,7 +71,6 @@ function Contact() {
           onChange={updateEmail}
         />
         <label htmlFor="">Message us </label>
-        <textarea className={style.input} id="input" />
         <button className={style.btn}>Submit</button>
       </form>
     </div>
