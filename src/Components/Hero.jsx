@@ -2,7 +2,6 @@ import React from "react";
 import P4 from "../assets/p4.jpg";
 import AllProducts from "../data";
 import Featured from "./Featured";
-import Search from "./Search";
 import Products from "../Pages/Products";
 const Hero = () => {
   const style = {
@@ -15,7 +14,6 @@ const Hero = () => {
     <div className={style.parent}>
       <img className={style.img_size} src={item.img} alt="" />.
       <Featured />
-      {/* <Search /> */}
       <Products />
     </div>
   );
