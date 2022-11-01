@@ -70,7 +70,6 @@ function Contact() {
           id="input"
           onChange={updateEmail}
         />
-        <label htmlFor="">Message us </label>
         <button className={style.btn}>Submit</button>
       </form>
     </div>
